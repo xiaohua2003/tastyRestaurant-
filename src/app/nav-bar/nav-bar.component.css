@@ -1,0 +1,33 @@
+/*style nav-bar*/
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:0 7rem;
+}
+li {
+  list-style-type: none; 
+  display:inline;
+  margin:0 16px;
+  font-size:1.2rem;
+}
+a{
+    text-decoration: none;
+    color:#707070;
+    margin-top:1.5rem;
+    margin-bottom:1.2rem;
+}
+.nav_item:hover{
+    color:#069C54
+}
+header{
+  width:100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color:#FBFEFD;
+  z-index:100;
+}
+.tasty{
+    font-size: 1.8rem;;
+}

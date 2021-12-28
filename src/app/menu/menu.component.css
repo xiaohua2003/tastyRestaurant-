@@ -1,0 +1,39 @@
+section{
+text-align:center;
+margin-top:8rem;
+}
+h1{
+    font-size:2.5rem
+}
+.menu{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:5rem;
+    column-gap: 68px;
+}
+img{
+    width:120px;
+    align-self:center;
+}
+
+.menu_content{
+    display:flex;
+    flex-direction: column;
+    background-color:white;
+    box-shadow: 0 3px 8px rgba(3,74,40,.15);
+    padding:0.75rem 2rem;
+    border-radius:0.5rem;
+}
+.menu-btn{
+    border-radius:0.3rem;
+    padding:0.4rem 0.5rem;
+    background-color: #069C54;
+    width:60px;
+    margin:9px auto;
+    color:white;
+    cursor: pointer;
+}
+.menu-btn:hover{
+    background-color:#048654;
+}

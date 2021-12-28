@@ -1,0 +1,28 @@
+.home{
+    margin-top:10rem;
+    display:flex;
+    justify-content: center;
+}
+h1{
+    font-size:2.5rem;
+    color:#069C54;
+}
+h4{
+    font-size:1.8rem;
+}
+.button{
+    border-radius: 5px;
+    padding:10px 15px;
+    border:none;
+    color:white;
+    background-color:#069C54;
+    text-decoration: none;
+}
+.button:hover{
+    background-color:#048654;
+}
+.homeImg{
+   width:300px; 
+   justify-self:center;
+   margin-left: 1.6rem;
+}
