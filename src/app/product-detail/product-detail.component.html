@@ -1,0 +1,17 @@
+<div class="product-detail" >
+    <div *ngIf="product">
+        <h1>Product Details</h1>
+        <div class="detail-info">
+            <div>
+                <img [src]="product.imgUrl" alt="">
+                <p>{{product.description}}</p>  
+            </div>
+            <h4 class="detail">{{product.name}}</h4>
+            <h5 class="detail">{{product.price|currency}}</h5>
+            <div class="detail">
+                <a type="button" class='prodDetailBtn' routerLink="/cart" (click)="addCart(product)">Add to Cart</a>
+            </div> 
+        </div> 
+    </div>
+</div>
+

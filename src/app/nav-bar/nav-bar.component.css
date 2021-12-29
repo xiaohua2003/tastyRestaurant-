@@ -29,5 +29,7 @@ header{
   z-index:100;
 }
 .tasty{
-    font-size: 1.8rem;;
+    font-size: 1.8rem;
+    color:#069C54;
+    font-weight:bold;
 }

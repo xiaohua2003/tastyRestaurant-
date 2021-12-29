@@ -1,0 +1,17 @@
+<div class='cart'>
+    <h1>Cart</h1>
+    <div>
+        <div *ngFor="let item of items" class="cart-info">
+            <img [src]="item.imgUrl" alt="">
+            <h3>{{item.name}}</h3>
+            <h3>${{item.price}}</h3>
+          </div>
+    </div> 
+    <div class="btnSection" *ngIf="cart">
+        <p>Subtotal ({{itemNum}} items):<strong> ${{subtotal}}</strong> </p>
+        <a type="button" class="cartBtn" routerLink="/menu">Back shopping</a>
+        <a type="button" class="cartBtn" routerLink="/customer">Check out</a>
+    </div>
+    
+</div>
+

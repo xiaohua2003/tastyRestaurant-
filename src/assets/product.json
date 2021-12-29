@@ -1,0 +1,41 @@
+[{
+    "id":1,
+    "imgUrl":"https://user-images.githubusercontent.com/72715756/147596063-74491f86-c46f-47d8-a8c8-6085e884212b.png",
+    "name":"Barbecue salad",
+    "price":28,
+    "description":"tofu, cabbage, sauce, pork, spinich"
+},{
+    "id":2,
+    "imgUrl":"https://user-images.githubusercontent.com/72715756/147596154-6a0ec86a-fe9c-4ff0-8975-b6a0089f94ef.png",
+    "name":"seafood salad",
+    "price":29,
+    "description":"garlic, mussels, lemon, tomatoes, oregano, olive oil, sea scallops"
+},
+{
+"id":3,
+"imgUrl":"https://user-images.githubusercontent.com/72715756/147596195-5532c456-c0e1-4399-b1b6-7e42b306da79.png",
+"name":"Spinach salad",
+"price":9,
+"description":"spinach,  toasted crumbled walnuts, tangy goat cheese "
+},
+{
+    "id":4,
+    "imgUrl":"https://user-images.githubusercontent.com/72715756/147622468-bc2c7b39-08f9-400e-a596-c1c2b7658d5b.png",
+    "name":"beef salad",
+    "price":19,
+    "description":"beef, cucumber, chilli, garlic, lime, tomato, lettuce"
+},
+{
+    "id":5,
+    "imgUrl":"https://user-images.githubusercontent.com/72715756/147622588-a1f79a89-df8f-480c-b15c-5a7f84665b9e.png",
+    "name":"Salmon salad",
+    "price":28,
+    "description":"salmon, avocado, fresh herbs, bell pepper, onion"
+},{
+    "id":6,
+    "imgUrl":"https://user-images.githubusercontent.com/72715756/147622700-955de8f4-40ab-4538-9c1b-ab6f883acc85.png",
+    "name":"chicken salad",
+    "price":19,
+    "description":"chicken,basil, cilantro,baby tomatoes, carrots, olives "
+}
+]

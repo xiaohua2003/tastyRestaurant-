@@ -1,0 +1,33 @@
+.cart{
+    margin-top:8rem;
+    text-align:center;
+   width: 900px;
+   margin: 8rem auto;
+}
+img{
+    width:120px;
+}
+h1{
+    font-size:2.2rem;
+    color:#069C54;
+}
+.cart-info{
+    display:flex;
+    flex-direction: row;
+    column-gap:2.5rem;
+    justify-content: center;
+    margin-top:5rem;
+}
+.cartBtn{
+    border-radius:0.3rem;
+    padding:0.4rem 0.5rem;
+    background-color: #069C54;
+    width:60px;
+    margin:2.5rem 1rem;
+    color:white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btnSection{
+    margin-top:4rem;
+}

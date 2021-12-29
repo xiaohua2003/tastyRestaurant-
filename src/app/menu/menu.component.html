@@ -1,26 +1,14 @@
 <section>
     <h1>Menu</h1>
-    <div class="menu">
-        <div class="menu_content">
-            <img  src="../assets/img/plate1.png" alt=""> 
-            <h5>Barbecue salad</h5>
-            <span>Delicious dish</span>
-            <span>$22</span>
-            <a class="menu-btn" type='button'>add cart</a>
-         </div>
+    <div class="menu" >
+      <div *ngFor="let item of items">
          <div class="menu_content">
-            <img src="../assets/img/plate2.png" alt=""> 
-            <h5>salad with fish</h5>
-            <span>Delicious dish</span>
-            <span>$20</span>
-            <a class="menu-btn" type='button'>add cart</a>
-         </div>
-         <div class="menu_content">
-            <img src="../assets/img/plate3.png" alt=""> 
-            <h5>Spinach salad</h5>
-            <span>Delicious dish</span>
-            <span>$10</span>
-            <a class="menu-btn" type='button'>add cart</a>
+            <img  [src]="item.imgUrl" alt=""> 
+            <h5>{{item.name}}</h5>
+            
+            <a class="menu-btn" type='button' [routerLink]="['/product', item.id]"> view</a>
          </div>
     </div>
+    </div>
+  
 </section>

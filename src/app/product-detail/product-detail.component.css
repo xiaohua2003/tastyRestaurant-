@@ -1,0 +1,33 @@
+.product-detail{
+    margin-top: 10rem;
+    text-align:center;
+}
+h1{
+        font-size:2.2rem;
+        color:#069C54;
+    }
+
+img{
+    width:130px;
+}
+.prodDetailBtn{
+    border-radius:0.3rem;
+    padding:0.4rem 0.5rem;
+    background-color: #069C54;
+    width:60px;
+    margin:2rem auto;
+    color:white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.detail-info{
+    display:flex;
+    flex-direction: row;
+    column-gap:2rem;
+    justify-content: center;
+    margin-top:6rem;
+}
+.detail{
+    margin-top:5rem;
+    margin-left:3rem;
+}
