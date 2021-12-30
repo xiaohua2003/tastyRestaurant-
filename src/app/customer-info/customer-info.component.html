@@ -1,1 +1,22 @@
-<p>customer-info works!</p>
+<section>
+    <div class="customer-info">
+       <h1>Customer information</h1>
+       <form [formGroup]='customerForm' (ngSubmit)="onSubmit()" class="customer-form">
+           <label for="name">Name:</label>
+           <input type="text" formControlName="name">
+           <label for="phone" >Phone Number:</label>
+           <input type="text" formControlName="phone">
+           <div formGroupName='address' class='customer-form'>
+               <label for="street">Street:</label>
+               <input type="text" formControlName="street">
+               <label for="city">City:</label>
+               <input type="text" formControlName="city">
+               <label for="state">State:</label>
+               <input type="text" formControlName="state">
+               <label for="street">Postal Code:</label>
+               <input type="text" formControlName="zip">
+           </div>
+           <button type="submit" (click)='updateProfile()'>submit</button>
+       </form>
+    </div>
+</section>

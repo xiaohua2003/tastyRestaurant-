@@ -1,0 +1,32 @@
+.customer-info{
+    margin-top:5rem;
+    text-align:center;
+}
+h1{
+    font-size:2.2rem;
+    color:#069C54;
+}
+.customer-form{
+   display:flex;
+   flex-direction: column;
+   width:700px;
+   margin:0rem auto; 
+}
+input{
+    margin-top:0.5rem;
+}
+label{
+    margin-top:1rem;
+}
+button{
+    margin-top:1.5rem;
+    border-radius:0.3rem;
+    padding:0.4rem 0.5rem;
+    background-color: #069C54;
+    color:white;
+    cursor: pointer;
+    border:none;
+}
+button:hover{
+    background-color:#048654;
+}

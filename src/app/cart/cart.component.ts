@@ -9,6 +9,7 @@ import { Product } from '../product';
 })
 export class CartComponent implements OnInit {
   cart:boolean=false
+  cartEmpty:boolean=true
   subtotal:any
   itemNum!:number
   constructor(private product_service: ProductService) { }
@@ -16,12 +17,16 @@ export class CartComponent implements OnInit {
   ngOnInit(): void {
    if(this.items.length!==0){
      this.cart=true
+     this.cartEmpty=false
      console.log(this.cart)
    }
    this.subtotal=this.items.reduce((accum, item)=>accum +item.price, 0)
    this.itemNum=this.items.length
   }
   items=this.product_service.getItems()
-  
-
+  remove(value:Product){
+   this.items= this.product_service.removeOne(value)
+   this.subtotal=this.items.reduce((accum, item)=>accum +item.price, 0)
+   this.itemNum=this.items.length
+  }
 }

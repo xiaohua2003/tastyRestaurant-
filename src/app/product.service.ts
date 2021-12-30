@@ -18,6 +18,9 @@ this.items.push(value)
   clearItems(){
     return this.items=[]
   }
+  removeOne(value:Product){
+   return this.items=this.items.filter(item=>item!==value)
+  }
   getProducts(){
     return this.http.get('./assets/product.json').pipe(catchError(this.handleError));
   }
